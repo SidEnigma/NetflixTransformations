@@ -44,7 +44,7 @@ AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fac
 └── packages.yml <br/>
 
 
-## 🔍 Core dbt Concepts Showcased
+## 🔍 Core dbt Concepts
 
 ### ⚙️ **Materializations**
 Experimented with `view`, `table`, `ephemeral`, and `incremental` materializations to balance cost and performance.
