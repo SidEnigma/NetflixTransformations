@@ -34,9 +34,9 @@ AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fac
 ├── macros/ # Custom tests for data consistency <br/>
 ├── models/ <br/>
 │ ├── dim/ # Dimesional tables with business logic <br/>
-| ├── fct/ # Fact tables <br/>
+│ ├── fct/ # Fact tables <br/>
 │ ├── mart/ # Dedicated tables for analytics <br/>
-| └── staging/ # Views from raw data <br/>
+│ └── staging/ # Views from raw data <br/>
 ├── seeds/ # Static CSVs for lookup data <br/>
 ├── snapshots/ # SCD management <br/>
 ├── tests/ # Generic and singular data tests <br/>
