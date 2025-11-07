@@ -3,7 +3,6 @@
 ![dbt](https://img.shields.io/badge/dbt-v1.8+-orange?logo=dbt&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-Data%20Warehouse-blue?logo=snowflake&logoColor=white)
 ![AWS S3](https://img.shields.io/badge/AWS-S3-232F3E?logo=amazon-aws&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
 
@@ -25,7 +24,7 @@ This project demonstrates an **end-to-end data transformation pipeline** for Net
 
 ## 🧩 Data Pipeline Architecture
 
-The project follows a **modern analytics engineering pattern** with a clear separation between layers:
+The project follows a **modern analytics engineering pattern** with a clear separation between layers: <br/>
 AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fact) → Data Marts → BI Layer
 
 
