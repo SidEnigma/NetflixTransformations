@@ -29,18 +29,19 @@ AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fac
 
 
 ## 🧱 Project Structure
-.
-├── models/
-│ ├── staging/ # Cleaning and normalization
-│ ├── intermediate/ # Business logic models
-│ ├── marts/ # Dimension & fact tables
-│ └── tests/ # Generic and singular data tests
-├── snapshots/ # SCD management
-├── seeds/ # Static CSVs for lookup data
-├── macros/ # Custom reusable SQL macros
-├── analyses/ # Analytical SQL scripts
-├── dbt_project.yml
-└── profiles.yml
+. <br/>
+├── analyses/ # Analytical SQL scripts <br/>
+├── macros/ # Custom tests for data consistency <br/>
+├── models/ <br/>
+│ ├── dim/ # Dimesional tables with business logic <br/>
+| ├── fct/ # Fact tables <br/>
+│ ├── mart/ # Dedicated tables for analytics <br/>
+| └── staging/ # Views from raw data <br/>
+├── seeds/ # Static CSVs for lookup data <br/>
+├── snapshots/ # SCD management <br/>
+├── tests/ # Generic and singular data tests <br/>
+├── dbt_project.yml <br/>
+└── packages.yml <br/>
 
 
 ## 🔍 Core dbt Concepts Showcased
