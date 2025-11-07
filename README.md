@@ -6,13 +6,11 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Status](https://img.shields.io/badge/Status-Completed-success)
 
----
 
 ## 📘 Project Overview
 
 This project demonstrates an **end-to-end data transformation pipeline** for Netflix streaming analytics using **dbt** and **Snowflake**. Raw data from **AWS S3** is ingested into Snowflake, where dbt performs all transformations to produce **analytics-ready, governed data models**.
 
----
 
 ## ⚙️ Tech Stack
 
@@ -24,14 +22,12 @@ This project demonstrates an **end-to-end data transformation pipeline** for Net
 | **SQL & Jinja** | Transformation logic and dynamic templating |
 | **Git / GitHub** | Version control and project documentation |
 
----
 
 ## 🧩 Data Pipeline Architecture
 
 The project follows a **modern analytics engineering pattern** with a clear separation between layers:
 AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fact) → Data Marts → BI Layer
 
----
 
 ## 🧱 Project Structure
 .
@@ -47,7 +43,6 @@ AWS S3 → Snowflake (Raw) → dbt Staging → dbt Intermediate (Dimension / Fac
 ├── dbt_project.yml
 └── profiles.yml
 
----
 
 ## 🔍 Core dbt Concepts Showcased
 
